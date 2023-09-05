@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    position: relative;
+    min-height: 100vh;
+    background-color: gray;
+    background-repeat: no-repeat;
+}
+.container{
+    margin: 0 28%;
+}
+.promotext{
+    padding-top: 24%;
+    margin-right: 30%;
+    color: white;
+    text-shadow: 1px 1px 11px #022e77;
+    text-align: left;
+}
+.promotext h3{
+    font-size: 5rem;
+    line-height: 1;
+}
+.promotext p{
+    font-size: 2.2rem;
+    font-weight: 300;
+    margin-top: 40px;
+}
+.login{
+    position: absolute;
+    padding: 50px 80px;
+    text-align: center;
+    box-shadow: 3px 6px 30px 8px rgb(58, 58, 58/15%);
+    background: rgb(0,52,134 /50%);
+    right: 3%;
+    bottom: 20%;
+    margin-top: 50%;
+    margin-bottom: -5%;
+    height: 80%;
+    border: 1px solid;
+    border-top-color:#000030;
+    border-left-color:#000030;
+    border-bottom-color:#000030;
+    border-right-color:#000030;
+    border-radius: 8px;
+    backdrop-filter: blur(5px);
+}
+.login h4{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: white;
+}
+.login p{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 100px;
+}
+.inputbox{
+    position: relative;
+    margin-bottom: 50px;
+}
+.inputbox input{
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #eff9ff;
+    border: none;
+    border-bottom: 1px solid #abeeff;
+    background-color: transparent;
+    padding: 4px 3px;
+    outline: none;
+}
+.inputbox span{
+    position: absolute;
+    left: 2px;
+    bottom: 40px;
+    letter-spacing: 1px;
+    color: white;
+}
+.button{
+    position: relative;
+    cursor: pointer;
+    background: white;
+    color: #022e79;
+    font-size: 15px;
+    padding: 18px 80px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    box-shadow: 0 3px 8px 2px rgb(60 60 60 / 30% );
+    margin-top: 30px;
+    transition: all 0.2s ease-in-out;
+}
+.button:hover{
+    background-color: royalblue;
+    box-shadow: 0 3px 8px 2px rgb(99 99 99 /30%);
+    transition: all 0.2s ease-in-out;
+}

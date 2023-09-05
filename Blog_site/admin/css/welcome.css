@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:gray;
+    
+}
+header .top-bar {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: gainsboro;
+    width: 100%;
+    padding: 10px 20px;
+}
+header .top-bar form{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 20px;
+    width: 600px;
+    background: white;
+    border: none;
+    margin-right: 300px;
+}
+
+
+header .top-bar form .srch {
+    height: 20px;
+    width:300px;
+    background: white;
+    outline: none;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+ i {
+    text-align: end;
+    justify-content: end;
+    font-size: 22px;
+    float: right;
+    margin-left: 240px;
+}
+
+
+.dots-wrapper{
+    padding: 10px;
+    display: flex;
+}
+#dot1{
+    background-color:#FC6058;
+}
+#dot2{
+    background-color: #FEC02F;
+}
+ #dot3{
+    background-color:green;
+}
+.browser-dot{
+    background-color: black;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    margin: 5px;
+    -webkit-box-shadow:  -1px 1px 3px -1px  rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 3px  -1px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+}
+/*top section end*/
+
+/*nav section start*/
+section .nav-bar {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    
+    border-bottom: 1px solid gainsboro;
+}
+
+.logo h1 {
+    font-size: 50px;
+    height: 80px;
+    width: 55px;
+    background-color: white;
+    color: gray;
+}
+.logo p{
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 22px;
+    position: absolute;
+    color: white;
+    margin-left: 60px;
+    margin-top: -65px;
+    font-weight: 500;
+
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    margin-top: -70px;
+    margin-left: -400px;
+}
+.menu ul li {
+    position: relative;
+    padding: 30px 10px;
+    letter-spacing: 1px;
+}
+.menu ul li  a {
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+.drop-down{
+    display: none;
+}
+.menu  ul li a:hover .drop-down{
+    display: block;
+    position: absolute;
+    left: -100%;
+    top: 100%;
+}
+.menu ul li a:hover,
+ .menu ul li a.active {
+    color:#1b1b1b;
+    
+}
+.menu  .menu-btn i{
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+
+.menu  ul li:hover .drop-down{
+    display: block;
+    position: absolute;
+    left: -100%;
+    top: 100%; 
+    height: 200px;
+    width: 90px;
+    margin-left: 100px;
+    margin-top: -20px;
+
+
+}
+.menu  ul li:hover .drop-down ul{
+    display: block;
+    margin: 10px;
+    line-height: 0.02px;
+
+
+    
+}
+.menu  ul li:hover.drop-down ul li {
+    width: 100px;
+    padding: 10px;
+    line-height: 0.02px;
+}
+
+.search{
+    width: 300px;
+    float: left;
+    margin-left: 200px;
+    height: 60px;
+    text-align: end;
+    justify-content: end;
+    margin-left: 930px;
+    margin-top: -73.519px;
+}
+.serch {
+    font-family: 'Times New Roman';
+    width: 150px;
+    background: transparent;
+    border-left: 1px solid gainsboro;
+    color:white;
+    font-size: 16px;
+    padding: 13px;
+    border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+ul{
+    list-style: none;
+}
+
+li{
+    list-style: none;
+}
+.fa fa-user{
+    color: white;
+}
+
+.serch:focus{
+    outline: none;
+}
+
+/*home-page*/
+.home-page{
+    margin-top: 20px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    text-align: center;
+}
+.heading{
+      color: white;
+      text-transform: capitalize;
+      font-size: 80px;
+      line-height: 60px;
+      margin-bottom: 80px;
+}
+.heading .small{
+    display: block;
+    font-size: 40px;
+}
+.heading .small1 {
+    display: block;
+    font-size: 40px;
+}
+.heading .no-fill {
+    font-style: italic;
+    color: transparent;
+    -webkit-text-stroke: 2px white ;
+}
+    .btn {
+        padding: 10px 20px;
+        border-radius: 10px;
+        background: rgba(255,255, 255, 0.7);
+        color: #000;
+        text-decoration: none;
+        text-transform: capitalize;
+        margin-top: 160px;
+    }
+
+    /*home page end*/
+
+    /*blog sectionstart*/
+
+
+
+
+
+
+
+
+    /*blog section end*/
+  
+/*contact*/
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background:white;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 50%;
+}
+.icon{
+    color: blue;
+    text-align: center;
+    padding: 6px;
+
+}
+.container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: white;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactInfo .box .text h3{
+    font-weight: 500;
+    color: cyan;
+}
+.contact-container{
+    height: 300px;
+    width: 400px;
+}
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background: white;
+}
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactForm .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactForm .inputbox input,
+.contactForm .inputbox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactForm .inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contactForm .inputbox input:focus ~ span,
+.contactForm .inputbox input:valid ~ span,
+.contactForm .inputbox textarea:focus ~ span,
+.contactForm .inputbox textarea:valid ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contactForm .inputbox input [ type="submit"]{
+    width: 100px;
+    background: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+
+    /*footer section*/
+    .footer{
+        width: 100%;
+        height: 100px;
+        background-color: black;
+    }
+    .social{
+        font-size: 20px;
+        text-align: center;
+        justify-content: center;
+        padding: 20px;
+        cursor: pointer;
+        
+    }
+    .text{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        justify-content: center;
+        padding: 7px;
+        cursor: pointer;
+
+    }
+
